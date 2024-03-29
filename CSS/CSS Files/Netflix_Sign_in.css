@@ -1,0 +1,69 @@
+body{
+    text-align: center;
+}
+
+#sign_in
+{
+    background-color: rgba(219, 34, 34,250);
+    color: white;
+    border-radius: 4px;
+    border-width: 3px;
+    width: 180px;    
+}
+.Sign_In
+{
+    background-color:#000000;
+    
+    
+    margin: 200px;;
+    margin-left: 200px;
+    margin-right: 200px;
+    color: white ;
+    width: 400px;
+}
+
+h3{
+    padding-top: 20px;
+    color: white;
+    font-size: 30px;
+
+}
+
+#btn2
+{
+    width: 180px;
+    background-color: gray;
+    border-radius: 4px;
+    border-width: 3px;
+    font-size: 15px;
+    color: white;
+
+}
+
+#a1{
+    color: white;
+    text-decoration: none;
+    
+}
+
+span{
+    color: rgb(177, 179, 180);
+}
+
+#text
+{
+    font-size: 15px;
+
+}
+
+#a2
+{
+    text-decoration: none;
+    color: white;
+}
+
+#a3{
+    text-decoration: none;
+    color: blue;
+    
+}
