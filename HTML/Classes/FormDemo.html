@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link
+      rel="shortcut icon"
+      href="https://tse4.mm.bing.net/th?id=OIP.qGgA5apDlL-SThzZnMP6jQHaH0&pid=Api&P=0&h=180"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <form action="Demo.java">
+      <div class="un">
+        <input
+          type="text"
+          name="Username"
+          id="un"
+          placeholder="Enter your Username"
+          value="Sudha Rani"
+        />
+      </div>
+      <br />
+      <div class="email">
+        <input
+          type="email"
+          name="Email"
+          id="email"
+          placeholder="Enter Your Email-id"
+        />
+      </div>
+      <br />
+      <div class="pwd">
+        <input type="password" name="Password" id="pwd" placeholder="pwd" />
+      </div>
+      <br />
+      <div class="gender">
+        <h3>Gender</h3>
+
+        <input type="radio" name="Gender" id="Male" value="Male" />
+        <label for="Male">Male</label>
+        <br />
+        <input type="radio" name="Gender" id="Female" value="Female" />
+        <label for="Female">Female</label>
+        <br />
+        <input type="radio" name="Gender" id="Other" value="Other" />
+        <label for="Other">Other</label>
+      </div>
+      <br />
+      <div class="course">
+        <h3>Select Course</h3>
+        <input type="checkbox" name="Course" id="Java" value="Java" />
+        <label for="Java">Java</label>
+        <br />
+        <input type="checkbox" name="Course" id="MYSQL" value="MYSQL" />
+        <label for="MYSQL">MYSQL</label>
+        <br />
+        <input
+          type="checkbox"
+          name="Course"
+          id="Web Developmeant"
+          value="Web Developmeant"
+        />
+        <label for="Web Developmeant">Web Developmeant</label>
+        <br />
+        <input type="checkbox" name="Course" id="Python" value="Python" />
+        <label for="Python">Python</label>
+        <br />
+      </div>
+      <br />
+      <div class="dob">
+        <h3>Date Of Admission & Time</h3>
+        <input type="datetime-local" name="date" id="date" />
+      </div>
+      <br />
+      <div class="Age">
+        <h3>Enter Your Age</h3>
+        <input type="number" name="Age" id="age">
+      </div>
+      <br>
+      <div class="file">
+        <input type="file" name="File" id="File" value="Upload File" />
+      </div>
+      <br />
+      <div class="color">
+        <h3>Choose the color</h3>
+        <input type="color" name="color" id="color" />
+      </div>
+      <br>
+      <input type="submit" value="Submit" />
+      <input type="reset" value="Reset" />
+    </form>
+  </body>
+</html>
