@@ -1,0 +1,116 @@
+
+
+.kc
+{
+    background-color: #84d2e0;
+    
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+
+h1
+{
+    font-size: 50px;
+    text-decoration: underline;
+    text-align: center;
+    
+}
+#p1
+{
+    font-size: 25px;
+    font-weight: 500px;
+    font-style:bold;
+    text-align: center;
+}
+
+.images
+{
+    background-color: black;
+    padding-top: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
+
+}
+
+
+#img1
+{
+    width:100%;
+}
+
+
+
+a{
+    color:black;
+    font-family:'Times New Roman', Times, serif;
+    margin: 10px;
+    margin-left: 3px;
+    text-decoration: none;
+    font-size: 21px;
+    font-weight: 500px;
+    font-style: bold;
+
+    
+
+}
+
+a1{
+    color: black;
+}
+
+a1,a2,a3
+{
+   
+    text-align: left;
+}
+
+
+
+/*
+   About_kc.css
+*/
+
+#kc_img
+{
+    
+    height: 300px;
+    padding-left: 400px;
+}
+
+#kc_h1
+{
+    color:black;
+}
+#kc_div
+{
+    padding-top: 3px;
+    background-color: white;
+    
+
+}
+
+#kc_body
+{
+    color:black;
+}
+
+
+#h2{
+    text-decoration: underline;
+}
+
+p{
+    font-size: 20px;
+}
+
+
+#contact
+{
+    text-decoration: none;
+    
+}
+
+
+
+

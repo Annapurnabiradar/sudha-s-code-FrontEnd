@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+
+
+    <style>
+      body{
+        background-color:white;
+        color: white;
+        font-size: 16px;
+        
+      }
+      div{
+        margin-left: 498px;
+        margin-right:498px;
+        width:380px;
+        border-width: 2px;
+        background-color:grey;
+        border-style: solid;
+        margin-top: 80px;
+        padding-bottom: 18px;
+        
+      }
+
+      #h2f{
+          padding-left: 15px;
+          
+          margin-bottom: 7px;
+          margin-top: 30px;
+      }
+
+      h1{
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 15px;
+      }
+
+      #ln1
+      {
+        
+        padding-left: 110px;
+      }
+
+     
+
+      #fn
+      {
+        margin-left: 15px;
+      }
+
+      #fn1{
+        margin-left: 15px;
+      }
+
+      #ln1
+      {
+        margin-left: 0px;
+      }
+
+      #ln
+      {
+        margin-left: 0px;
+      }
+
+      #h2{
+        padding-left: 15px;
+        padding-bottom: 3px;
+        padding-top: 3px;
+        margin-bottom:7px;
+        
+      }
+
+       span{
+        color: red;
+        font-size: 15px;
+       }
+      textarea{
+        margin-left: 15px;
+        margin-bottom: 40px;
+      }
+
+      #h2e
+      {
+        
+        width: 350px;
+        margin-left: 15px;
+        margin-top: 1px;
+      }
+      
+      button{
+         margin-left: 16px;
+         margin-right: 16px;
+         margin-top: 20px;
+         margin-bottom: 20px;
+         padding-left: 148px;
+         padding-right: 148px;
+         text-align: center;
+         font-style: normal;
+         padding-top: 5px;
+         padding-bottom: 5px;
+         width: 354px;
+         background-color:rgb(224, 224, 243);
+         font-size: 15px;
+         text-align: center;
+         
+      }
+
+      
+
+
+      hr{
+        border: 1px dashed;
+
+      }
+
+      #msg1
+      {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        padding-left: 15px;
+      }
+
+      .e
+      {
+        padding-left: 15px;
+      }
+    </style>
+
+
+
+</head>
+<body>
+    <div id="div">
+        <h1 id="h1">Contact Us</h1>
+        <hr>
+        <form action="">
+            <h2 id="h2f" >FullName <span>*</span></h2>
+        
+            <input type="text" name="fn" id="fn" required>
+            <input type="text" name="ln" id="ln" required><br>
+            <label for="fn" id="fn1">FirstName</label>
+            
+            
+            <label for="ln" id="ln1">LastName</label>
+            <br>
+            <h2 id="h2">Email<span> *</span></h2>
+            <input type="email" name="email" id="h2e" required>
+            <label for="h2e" class="e">example@example.com</label>
+            <br>
+            <h2 id="msg1">Messege<span> *</span>
+            </h2>
+<textarea name="msg" id="msg" cols="22" rows="6" required>
+Type Your Messege Here.
+</textarea>
+             <br>
+            <button id="h2e">SUBMIT</button>
+            
+
+        </form>
+    </div>
+</body>
+</html>
