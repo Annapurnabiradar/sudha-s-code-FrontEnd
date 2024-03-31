@@ -1,6 +1,7 @@
 body{
     
     background-image: url("../Images/Netflix1.jpg");
+
 }
 
 #sign_in
@@ -18,13 +19,16 @@ body{
 .Sign_In
 {
     background-color:rgba(1, 1, 1,0.8);;
-    padding: px;
+    
     margin-top: 170px;
     margin-bottom: 170px;
     margin-left: 450px;;
-   margin-right: 450px;
-    color: white ; 
-    width: 380px;
+    margin-right: 450px;
+   
+    
+    
+
+
 }
 
 h3{
