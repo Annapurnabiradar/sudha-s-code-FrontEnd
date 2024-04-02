@@ -8,11 +8,11 @@
   <link rel="stylesheet" href="stu.css">
 </head>
 <body>
-  <header>
-    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/07/Gulbarga_University_logo.png/220px-Gulbarga_University_logo.png" alt="logo" height="100px" id="logo">
+
+    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/07/Gulbarga_University_logo.png/220px-Gulbarga_University_logo.png" alt="logo"  id="logo">
      <span id="un">Gulbarga University</span>
-  </td>
-  </header>
+  
+
   <div id="pr">
   <div id="d1">
     <table id="t1">
@@ -29,7 +29,7 @@
         <table id="t2">
           <tr>
             <td id="cl1">
-              <label for="fn" class="cl1">Name: <sup>*</sup></label>
+              <label for="fn" class="cl1" id="name">Name: <sup>*</sup></label>
             </td>
             <td id="cl2">
               <input type="text" name="Name" id="fn" class="cl2">
@@ -37,7 +37,7 @@
           </tr>
           <tr>
             <td id="cl1">
-              <label for="mail" class="cl1">Email: <sup>*</sup> </label>
+              <label for="mail" class="cl1" id="email">Email: <sup>*</sup> </label>
             </td>
             <td id="cl2">
               <input type="email" name="Email" id="mail" class="cl2">
@@ -46,7 +46,7 @@
           
           <tr>
             <td id="cl1">
-              <label for="dob" class="cl1">DOB: </label>
+              <label for="dob" class="cl1" id="D">DOB: </label>
             </td>
             <td id="cl2">
               <input type="date" name="DOB" id="dob" class="cl2">
@@ -84,7 +84,7 @@
               </td>
               <td>
                 <select name="Country" id="c" class="cl2">
-                  <option value="USA">USA</option>
+                  <option value="USA" >USA</option>
                   <option value="PAK">PAKISTAN</option>
                   <option value="INDIA">INDIA</option>
                   <option value="AUS">AUSTRALIA</option>
@@ -109,9 +109,9 @@
                 <label for="" class="cl1">Department:</label>
               </td>
               
-              <td>
-                <select name="dept" id="dept">
-                  <option value="">Select your dept</option>
+              <td id="dr">
+                <select name="dept" id="dept" class="dd">
+                  <option value="" >Select your dept</option>
                   <option value="ELE">ELECTRONICS</option>
                   <option value="mech">MECHANICAL</option>
                   <option value="cs">COMPUTER SCIENCE</option>
@@ -125,8 +125,8 @@
               <td id="cl1">
                 <label for="" class="cl1">Course:</label>
               </td>
-              <td>
-                <select name="course" id="">
+              <td id="dr">
+                <select name="course" id=" course" class="dd">
                   <option value="">Select Course</option>
                   <option value="ELE">AI & Machine learning</option>
                   <option value="mech">Data Science</option>
@@ -137,6 +137,24 @@
               </td>
             </tr>
              
+           
+
+            <tr>
+              <td>
+                <label for="" class="cl1">Sports:</label>
+              </td>
+              <td>
+                <input type="text" name="Sports" class="cl2" list="l" multiple >
+                <datalist id="l" >
+                        <option value="Cricket">Cricket</option>
+                        <option value="Hockey">Hockey</option>
+                        <option value="Basketball">Basketball</option>
+                        <option value="Kho-Kho">Kho-Kho</option>
+                        <option value="Football">Football</option>
+                </datalist>
+              </td>
+            </tr>
+            
             <tr>
               <td>
                 <button class="cl1" id="bt1">Submit</button>
@@ -146,9 +164,6 @@
              </td>
              
             </tr>
-
-            
-             
         </table>
   </div>
 </div>
